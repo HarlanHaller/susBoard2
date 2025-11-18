@@ -2,9 +2,51 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid dea87457-738f-4c5a-8d68-6b57d3b491ea)
+	(uuid "dea87457-738f-4c5a-8d68-6b57d3b491ea")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 233.68 22.86)
+		(size 38.1 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03104f0a-5bd4-4b8e-a07b-53b8df6c4dd6")
+		(property "Sheetname" "PCIE"
+			(at 233.68 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCIE.kicad_sch"
+			(at 233.68 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "susBoard2"
+				(path "/dea87457-738f-4c5a-8d68-6b57d3b491ea"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
